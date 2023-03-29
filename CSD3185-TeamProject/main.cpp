@@ -10,6 +10,10 @@ int main(int argc, char* argv[])
     int rv;
     int32 score;
 
+    //for graphs
+    int num_frames = 0;
+    int32 max_amplitude = 0;
+
     config = cmd_ln_init(NULL, ps_args(), TRUE,
         "-hmm",  "model/en-us/en-us",
         "-lm",  "model/en-us/en-us.lm.bin",
@@ -38,14 +42,34 @@ int main(int argc, char* argv[])
         size_t nsamp;
         nsamp = fread(buf, 2, 512, fh);
         rv = ps_process_raw(ps, buf, nsamp, FALSE, FALSE);
+
+        // Keep track of the number of frames processed
+        num_frames++;
+
+        // Calculate the maximum amplitude of the audio data
+        for (int i = 0; i < nsamp; i++) {
+            if (abs(buf[i]) > max_amplitude) {
+                max_amplitude = abs(buf[i]);
+            }
+        }
+
+
     }
 
     rv = ps_end_utt(ps);
     hyp = ps_get_hyp(ps, &score);
     printf("Recognized: %s\n", hyp);
 
+
+    // Print out some basic audio analysis
+    printf("Number of frames: %d\n", num_frames);
+    printf("Maximum amplitude: %d\n", max_amplitude);
+
+
     fclose(fh);
     ps_free(ps);
     cmd_ln_free_r(config);
+
+
     return 0;
 }

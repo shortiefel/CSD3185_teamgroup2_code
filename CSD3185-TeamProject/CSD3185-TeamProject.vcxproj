@@ -160,6 +160,7 @@ copy "$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\bin\Release\x64\sphinxbas
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="training.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
