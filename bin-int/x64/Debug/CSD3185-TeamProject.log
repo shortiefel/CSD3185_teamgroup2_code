@@ -1,0 +1,18 @@
+﻿  main.cpp
+D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\main.cpp(8,24): warning C4101: 'uttid': unreferenced local variable
+  CSD3185-TeamProject.vcxproj -> D:\GitHub\CSD3158_MachineLearning\binx64\Debug\CSD3185-TeamProject.exe
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\goforward.raw
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\cmudict-en-us.dict
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us-phone.lm.bin
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us.lm.bin
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\feat.params
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\mdef
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\means
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\noisedict
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\README
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\sendump
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\transition_matrices
+  D:\GitHub\CSD3158_MachineLearning\CSD3185-TeamProject\\model\en-us\en-us\variances
+  12 File(s) copied
+          1 file(s) copied.
+          1 file(s) copied.

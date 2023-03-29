@@ -78,13 +78,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\bin\Debug\x64;$(LibraryPath)</LibraryPath>
     <IncludePath>$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include;$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include\win32;$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include\sphinxbase;$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)..\bin$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\bin-int\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <LibraryPath>$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\bin\Debug\x64;$(LibraryPath)</LibraryPath>
     <IncludePath>$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include;$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include\win32;$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\include\sphinxbase;$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)..\bin$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\bin-int\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -118,14 +120,20 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>pocketsphinx.lib;sphinxbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\dependencies\Sphinx\pocketsphinx\bin\Release\x64</AdditionalLibraryDirectories>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)\model"  "$(TargetDir)model" /e /y /i /r
+copy "$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\bin\Release\x64\pocketsphinx.dll" "$(TargetDir)\pocketsphinx.dll" /Y
+copy "$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\bin\Release\x64\sphinxbase.dll" "$(TargetDir)\sphinxbase.dll" /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -133,7 +141,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -142,7 +150,13 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>pocketsphinx.lib;sphinxbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\dependencies\Sphinx\pocketsphinx\bin\Release\x64</AdditionalLibraryDirectories>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)\model"  "$(TargetDir)model" /e /y /i /r
+copy "$(SolutionDir)\..\dependencies\Sphinx\pocketsphinx\bin\Release\x64\pocketsphinx.dll" "$(TargetDir)\pocketsphinx.dll" /Y
+copy "$(SolutionDir)\..\dependencies\Sphinx\sphinxbase\bin\Release\x64\sphinxbase.dll" "$(TargetDir)\sphinxbase.dll" /Y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

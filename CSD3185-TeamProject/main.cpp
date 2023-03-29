@@ -11,9 +11,9 @@ int main(int argc, char* argv[])
     int32 score;
 
     config = cmd_ln_init(NULL, ps_args(), TRUE,
-        "-hmm",  "/en-us/en-us",
-        "-lm",  "/en-us/en-us.lm.bin",
-        "-dict",  "/en-us/cmudict-en-us.dict",
+        "-hmm",  "model/en-us/en-us",
+        "-lm",  "model/en-us/en-us.lm.bin",
+        "-dict",  "model/en-us/cmudict-en-us.dict",
         NULL);
     if (config == NULL) {
         fprintf(stderr, "Failed to create config object, see log for details\n");
@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    fopen_s(&fh, "goforward.raw", "rb");
+    fopen_s(&fh, "model/goforward.raw", "rb");
     if (fh == NULL) {
         fprintf(stderr, "Unable to open input file goforward.raw\n");
         return -1;
@@ -47,6 +47,5 @@ int main(int argc, char* argv[])
     fclose(fh);
     ps_free(ps);
     cmd_ln_free_r(config);
-
     return 0;
 }
