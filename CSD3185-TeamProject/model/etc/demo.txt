@@ -1,0 +1,7 @@
+<s> JIANBURUFEI </s>
+<s> HUNSHUIMOYU </s>
+<s> HUOMAOSANZHANG </s>
+<s> JINGANGBUHUAI </s>
+<s> YAQUEWUSHENG </s>
+<s> ZHIMAKAIMEN </s>
+<s> GONGXIFACAI </s>
