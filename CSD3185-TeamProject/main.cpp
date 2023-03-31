@@ -1,6 +1,7 @@
 #include <pocketsphinx.h>
 #include <string>
 #include <iostream>
+#include <ctime>
 
 ps_decoder_t* ps;
 cmd_ln_t* config;
@@ -10,12 +11,23 @@ int16 buf[512];
 int rv;
 int32 score;
 std::string audiofilepath = "model/wav/speaker_";
-//for graphs
+
+/**
+* Analysis 
+*/
 int num_frames = 0;
 int32 max_amplitude = 0;
 int successCounter = 0;
+int num_audio_files = 0;
 
-void recogniseFromFile(std::string audiofilepath, std::string correctPhrase) {
+
+void recogniseFromFile(std::string audiofilepath, std::string correctPhrase) 
+{
+
+    //Start measuring time taken by the system
+    clock_t startTime = clock();
+
+
     fopen_s(&fh, audiofilepath.c_str(), "rb");
     if (fh == NULL) {
         fprintf(stderr, "Unable to open input file goforward.raw\n");
@@ -43,27 +55,47 @@ void recogniseFromFile(std::string audiofilepath, std::string correctPhrase) {
     }
 
     rv = ps_end_utt(ps);
-    if (ps_get_hyp(ps, NULL) == NULL) {
+    if (ps_get_hyp(ps, NULL) == NULL) 
+    {
         hyp = " ";
         std::cout << "here\n";
     }
-    else {
+    else 
+    {
         hyp = ps_get_hyp(ps, NULL);
     }
     printf("Recognized: %s\n", hyp);
 
-    // Print out some basic audio analysis
+    //Compare the recognized phrase with ground truth phrases
+    if (hyp == correctPhrase) {
+        ++successCounter;
+    }
+
+
+    //Time Anaylsis time taken by the system for audio file 
+    clock_t endTime = clock();
+    double time_taken = double(endTime - startTime) / CLOCKS_PER_SEC;
+    printf("Time taken: %.2fs\n", time_taken);
+
+
+    // Frame Rate Anaylsis
     printf("Number of frames: %d\n", num_frames);
+
+    //Amplitude (wave) Analysis
     printf("Maximum amplitude: %d\n", max_amplitude);
+
     num_frames = 0;
     max_amplitude = 0;
+
     if (hyp == correctPhrase)
         ++successCounter;
 
-
-
     fclose(fh);
+    ++num_audio_files;
 }
+
+
+/***/
 int main(int argc, char* argv[])
 {
     config = cmd_ln_init(NULL, ps_args(), TRUE,
@@ -88,7 +120,8 @@ int main(int argc, char* argv[])
     for (int i = 1; i < 196; ++i)
     {
         //speaker 1 to 90 -> contains audio files for jbrf hsmy hmsz (1,2,3)
-        for (int j = 1; j < 8; ++j) {
+        for (int j = 1; j < 8; ++j) 
+        {
 
             if (i < 91 && j > 3) continue;
             if (i > 90 && i < 146 && (j < 4 || j > 6)) continue;
@@ -108,6 +141,12 @@ int main(int argc, char* argv[])
         }
   
     }
+
+
+    // Calculate the recognition accuracy
+    double accuracy = (double)successCounter / (double)num_audio_files;
+    printf("Recognition accuracy: %.2f%%\n", accuracy * 100.0);
+
     std::cout << "Number of successful recognitions : " << successCounter << "/485\n";
     ps_free(ps);
     cmd_ln_free_r(config);
