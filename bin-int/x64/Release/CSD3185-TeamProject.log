@@ -1,8 +1,8 @@
 ﻿  main.cpp
   Generating code
-  2 of 142 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  163 of 250 functions (65.2%) were compiled, the rest were copied from previous compilation.
+    108 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   CSD3185-TeamProject.vcxproj -> C:\Users\tanwe\OneDrive\Desktop\CSD3158_MachineLearning\binx64\Release\CSD3185-TeamProject.exe
   C:\Users\tanwe\OneDrive\Desktop\CSD3158_MachineLearning\CSD3185-TeamProject\\model\goforward.raw

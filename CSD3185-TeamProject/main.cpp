@@ -1,8 +1,39 @@
+/******************************************************************************/
+/*!
+\file             main.cpp
+\author     Lee Yu Ting
+                    Lim Yi Qin
+                    Leong Jia Yi Celine
+                    Tan Wei Ling Felicia
+                    Woon Ting Ting
+
+\param      ML - Team 
+\brief          The program that initializes the PocketSphinx decoder and loops through all audio
+                     files to perform recognition and analysis.
+
+                     This also includes the different type of anaylsis done such as:
+                      - Word Error Rate 
+                      - Time Analysis
+                      - Amplitude Analysis
+
+  Copyright (C) 2022 DigiPen Institure of Technology.
+  Reproduction or disclosure of this file or its contents
+  without the prior written consent of DigiPen Institute of
+  Technology is prohibited.
+*/
+/******************************************************************************/
+
+
 #include <pocketsphinx.h>
 #include <string>
 #include <iostream>
 #include <ctime>
+#include <vector>
+#include <sstream>
 
+/**
+* Global Variables
+*/
 ps_decoder_t* ps;
 cmd_ln_t* config;
 FILE* fh;
@@ -13,29 +44,38 @@ int32 score;
 std::string audiofilepath = "model/wav/speaker_";
 
 /**
-* Analysis 
+* Frame rate, Amplitude and Success Count Analysis
 */
 int num_frames = 0;
 int32 max_amplitude = 0;
 int successCounter = 0;
 int num_audio_files = 0;
 
-
+/**
+* @brief Recognizes speech from an audio file and performs analysis on the recognition.
+*
+* @param audiofilepath The file path of the audio file to recognize.
+* @param correctPhrase The correct phrase to be recognized from the audio file.
+*
+* @return None.
+*/
 void recogniseFromFile(std::string audiofilepath, std::string correctPhrase) 
 {
 
     //Start measuring time taken by the system
     clock_t startTime = clock();
 
-
+    //opening of audio file
     fopen_s(&fh, audiofilepath.c_str(), "rb");
     if (fh == NULL) {
         fprintf(stderr, "Unable to open input file goforward.raw\n");
         //return -1;
     }
 
+    // Start the utterance
     rv = ps_start_utt(ps);
 
+    // Process the audio file
     while (!feof(fh)) {
         size_t nsamp;
         nsamp = fread(buf, 2, 512, fh);
@@ -54,7 +94,10 @@ void recogniseFromFile(std::string audiofilepath, std::string correctPhrase)
 
     }
 
+    // End the utterance
     rv = ps_end_utt(ps);
+
+    // Get the recognized phrase
     if (ps_get_hyp(ps, NULL) == NULL) 
     {
         hyp = " ";
@@ -64,7 +107,32 @@ void recogniseFromFile(std::string audiofilepath, std::string correctPhrase)
     {
         hyp = ps_get_hyp(ps, NULL);
     }
-    printf("Recognized: %s\n", hyp);
+
+    // Print the ground truth and recognized phrase
+    printf("Ground truth: %s\n", correctPhrase.c_str());
+    printf("Recognized phrase: %s\n", hyp);
+
+    // Split the ground truth and recognized phrases into words
+    std::istringstream correctPhraseStream(correctPhrase);
+    std::istringstream hypStream(hyp);
+    std::vector<std::string> correctWords, hypWords;
+    std::string word;
+    while (correctPhraseStream >> word) {
+        correctWords.push_back(word);
+    }
+    while (hypStream >> word) {
+        hypWords.push_back(word);
+    }
+
+    // Calculate the word error rate (WER)
+    int numCorrectWords = 0;
+    for (int i = 0; i < correctWords.size(); ++i) {
+        if (i < hypWords.size() && correctWords[i] == hypWords[i]) {
+            ++numCorrectWords;
+        }
+    }
+    double wer = 1.0 - ((double)numCorrectWords / (double)correctWords.size());
+    printf("Word error rate: %.2f%%\n", wer * 100.0);
 
     //Compare the recognized phrase with ground truth phrases
     if (hyp == correctPhrase) {
@@ -95,9 +163,11 @@ void recogniseFromFile(std::string audiofilepath, std::string correctPhrase)
 }
 
 
-/***/
+
 int main(int argc, char* argv[])
 {
+
+    // Initialize the configuration for the PocketSphinx speech recognizer
     config = cmd_ln_init(NULL, ps_args(), TRUE,
         "-hmm",  "model/model_parameters/demo.ci_cont",
         //"-lm",  "model/etc/demo.lm",                      //comment this line and uncomment the line below if want to use keyword search 
@@ -107,28 +177,44 @@ int main(int argc, char* argv[])
         "-cmn", "none",
         "-cmninit", "50.0",
         NULL);
+
+
+    // Check if the configuration was successfully created
     if (config == NULL) {
         fprintf(stderr, "Failed to create config object, see log for details\n");
         return -1;
     }
 
+    // Initialize the PocketSphinx speech recognizer using the configuration
     ps = ps_init(config);
+
+    // Check if the recognizer was successfully created
     if (ps == NULL) {
         fprintf(stderr, "Failed to create recognizer, see log for details\n");
         return -1;
     }
+
+    // Loop through all audio files and phrases to recognize speech
     for (int i = 1; i < 196; ++i)
     {
         //speaker 1 to 90 -> contains audio files for jbrf hsmy hmsz (1,2,3)
         for (int j = 1; j < 8; ++j) 
         {
 
+            // For speaker 1 to 90, skip audio files for phrases 4 to 7
             if (i < 91 && j > 3) continue;
+
+            // For speaker 91 to 145, skip audio files for phrases 1 to 3 and 7
             if (i > 90 && i < 146 && (j < 4 || j > 6)) continue;
+
+            // For speaker 146 to 195, skip audio files for phrases 1 to 6
             if (i > 145 && j < 7) continue;
 
-            audiofilepath = "model/wav/speaker_" + std::to_string(i) + "/" + std::to_string(i) + "_0" + std::to_string(j) + ".wav";
+            // Create the file path for the current audio file
+            audiofilepath = "model/wav/speaker_" + std::to_string(i) + "/" + std::to_string(i) + "_0" + std::to_string(j) + ".wav" + "\n";
             std::cout << audiofilepath << std::endl;
+
+            // Set the correct phrase for the current audio file
             std::string correctPhrase = "";
             if (j == 1) correctPhrase = "JIANBURUFEI";
             if (j == 2) correctPhrase = "HUNSHUIMOYU";
@@ -137,6 +223,8 @@ int main(int argc, char* argv[])
             if (j == 5) correctPhrase = "YAQUEWUSHENG";
             if (j == 6) correctPhrase = "ZHIMAKAIMEN";
             if (j == 7) correctPhrase = "GONGXIFACAI";
+
+            // Recognize speech from the current audio file
             recogniseFromFile(audiofilepath, correctPhrase);
         }
   
@@ -147,7 +235,10 @@ int main(int argc, char* argv[])
     double accuracy = (double)successCounter / (double)num_audio_files;
     printf("Recognition accuracy: %.2f%%\n", accuracy * 100.0);
 
+    // Print out the number of successful recognitions
     std::cout << "Number of successful recognitions : " << successCounter << "/485\n";
+
+    // Free memory used by the PocketSphinx speech recognizer and configuration
     ps_free(ps);
     cmd_ln_free_r(config);
 
