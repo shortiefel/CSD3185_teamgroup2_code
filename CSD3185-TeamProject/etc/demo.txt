@@ -1,5 +1,0 @@
-<s> QI </s>
-<s> RAN </s>
-<s> SHOU </s>
-<s> TUI </s>
-<s> DING </s>

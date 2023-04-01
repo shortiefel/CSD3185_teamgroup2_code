@@ -1,0 +1,1413 @@
+Keyword Search (KWS): Yes
+Remove noise: Yes
+
+Audio file: model/testing_data/speaker_1/1_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 61
+Maximum amplitude: 32149
+
+Audio file: model/testing_data/speaker_1/1_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 53
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_1/1_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 52
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_1/1_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_1/1_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 52
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_1/1_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 52
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_1/1_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 52
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 58
+Maximum amplitude: 32149
+
+Audio file: model/testing_data/speaker_2/2_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 52
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 50
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 53
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_2/2_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 51
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 52
+Maximum amplitude: 32149
+
+Audio file: model/testing_data/speaker_3/3_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 53
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_3/3_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 54
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 51
+Maximum amplitude: 32149
+
+Audio file: model/testing_data/speaker_4/4_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 51
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_4/4_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 54
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32149
+
+Audio file: model/testing_data/speaker_5/5_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 56
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_5/5_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 50
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_6/6_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_6/6_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 32
+Maximum amplitude: 32406
+
+Audio file: model/testing_data/speaker_6/6_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 27
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_6/6_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_6/6_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_6/6_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32732
+
+Audio file: model/testing_data/speaker_6/6_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_7/7_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32002
+
+Audio file: model/testing_data/speaker_7/7_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_7/7_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_7/7_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32372
+
+Audio file: model/testing_data/speaker_7/7_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 33
+Maximum amplitude: 32642
+
+Audio file: model/testing_data/speaker_7/7_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_7/7_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32500
+
+Audio file: model/testing_data/speaker_8/8_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_8/8_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_8/8_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase: HUOMAOSANZHANG
+Word error rate: 0.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_8/8_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_8/8_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 32
+Maximum amplitude: 32732
+
+Audio file: model/testing_data/speaker_8/8_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_8/8_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32696
+
+Audio file: model/testing_data/speaker_9/9_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 33
+Maximum amplitude: 32068
+
+Audio file: model/testing_data/speaker_9/9_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_9/9_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase: HUOMAOSANZHANG
+Word error rate: 0.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_9/9_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_9/9_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 33
+Maximum amplitude: 32642
+
+Audio file: model/testing_data/speaker_9/9_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_9/9_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 30
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase: HUOMAOSANZHANG
+Word error rate: 0.00%
+Number of frames: 29
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 28
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_10/10_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_11/11_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 53
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 44
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 41
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 38
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 45
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 42
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_12/12_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 44
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 43
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_13/13_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 51
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 46
+Maximum amplitude: 32767
+
+Audio file: model/testing_data/speaker_14/14_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 44
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 42
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 43
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_14/14_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 51
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 40
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 40
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 37
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 48
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 47
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_15/15_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 49
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 38
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 0.00%
+Number of frames: 42
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 38
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_16/16_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 37
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 0.00%
+Number of frames: 46
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_17/17_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 33
+Maximum amplitude: 32322
+
+Audio file: model/testing_data/speaker_17/17_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 38
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 0.00%
+Number of frames: 37
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 32
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 38
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_18/18_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 0.00%
+Number of frames: 32
+Maximum amplitude: 32512
+
+Audio file: model/testing_data/speaker_18/18_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 34
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 28
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_19/19_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 39
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_20/20_01.wav
+Time taken: 0.00s
+Ground truth: JIANBURUFEI
+Recognized phrase: JIANBURUFEI
+Word error rate: 0.00%
+Number of frames: 33
+Maximum amplitude: 32028
+
+Audio file: model/testing_data/speaker_20/20_02.wav
+Time taken: 0.00s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 37
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_20/20_03.wav
+Time taken: 0.00s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 31
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_20/20_04.wav
+Time taken: 0.00s
+Ground truth: JINGANGBUHUAI
+Recognized phrase: JINGANGBUHUAI
+Word error rate: 0.00%
+Number of frames: 33
+Maximum amplitude: 32500
+
+Audio file: model/testing_data/speaker_20/20_05.wav
+Time taken: 0.00s
+Ground truth: YAQUEWUSHENG
+Recognized phrase: YAQUEWUSHENG
+Word error rate: 0.00%
+Number of frames: 35
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_20/20_06.wav
+Time taken: 0.00s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 28
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_20/20_07.wav
+Time taken: 0.00s
+Ground truth: GONGXIFACAI
+Recognized phrase: GONGXIFACAI
+Word error rate: 0.00%
+Number of frames: 36
+Maximum amplitude: 32000
+
+Audio file: model/testing_data/speaker_21/21_01.wav
+Time taken: 0.01s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 173
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_21/21_02.wav
+Time taken: 0.01s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 161
+Maximum amplitude: 32768
+
+Audio file: model/testing_data/speaker_21/21_03.wav
+Time taken: 0.01s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 165
+Maximum amplitude: 28672
+
+Audio file: model/testing_data/speaker_21/21_04.wav
+Time taken: 0.01s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 155
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_21/21_05.wav
+Time taken: 0.01s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 151
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_21/21_06.wav
+Time taken: 0.01s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 129
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_21/21_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 159
+Maximum amplitude: 30790
+
+Audio file: model/testing_data/speaker_22/22_01.wav
+Time taken: 0.01s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 183
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_22/22_02.wav
+Time taken: 0.01s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 145
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_22/22_03.wav
+Time taken: 0.01s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 161
+Maximum amplitude: 32768
+
+Audio file: model/testing_data/speaker_22/22_04.wav
+Time taken: 0.01s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 175
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_22/22_05.wav
+Time taken: 0.01s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 157
+Maximum amplitude: 28742
+
+Audio file: model/testing_data/speaker_22/22_06.wav
+Time taken: 0.01s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 100.00%
+Number of frames: 147
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_22/22_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 177
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_01.wav
+Time taken: 0.01s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 167
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_02.wav
+Time taken: 0.01s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 181
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_03.wav
+Time taken: 0.01s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 173
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_04.wav
+Time taken: 0.01s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 169
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_05.wav
+Time taken: 0.01s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 167
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_23/23_06.wav
+Time taken: 0.01s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 100.00%
+Number of frames: 157
+Maximum amplitude: 28742
+
+Audio file: model/testing_data/speaker_23/23_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 100.00%
+Number of frames: 163
+Maximum amplitude: 30720
+
+Audio file: model/testing_data/speaker_24/24_01.wav
+Time taken: 0.01s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 159
+Maximum amplitude: 30790
+
+Audio file: model/testing_data/speaker_24/24_02.wav
+Time taken: 0.01s
+Ground truth: HUNSHUIMOYU
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 185
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_24/24_03.wav
+Time taken: 0.01s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 175
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_24/24_04.wav
+Time taken: 0.01s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 185
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_24/24_05.wav
+Time taken: 0.01s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 141
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_24/24_06.wav
+Time taken: 0.01s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 100.00%
+Number of frames: 179
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_24/24_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 169
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_01.wav
+Time taken: 0.01s
+Ground truth: JIANBURUFEI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 163
+Maximum amplitude: 30720
+
+Audio file: model/testing_data/speaker_25/25_02.wav
+Time taken: 0.01s
+Ground truth: HUNSHUIMOYU
+Recognized phrase: ZHIMAKAIMEN
+Word error rate: 100.00%
+Number of frames: 175
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_03.wav
+Time taken: 0.01s
+Ground truth: HUOMAOSANZHANG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 171
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_04.wav
+Time taken: 0.01s
+Ground truth: JINGANGBUHUAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 185
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_05.wav
+Time taken: 0.01s
+Ground truth: YAQUEWUSHENG
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 153
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_06.wav
+Time taken: 0.01s
+Ground truth: ZHIMAKAIMEN
+Recognized phrase: HUNSHUIMOYU
+Word error rate: 100.00%
+Number of frames: 183
+Maximum amplitude: 28006
+
+Audio file: model/testing_data/speaker_25/25_07.wav
+Time taken: 0.01s
+Ground truth: GONGXIFACAI
+Recognized phrase:  
+Word error rate: 100.00%
+Number of frames: 149
+Maximum amplitude: 28006
+
+
+In summary (with remove noise):
+
+Insertions: 0    Substitutions: 6   Deletions: 96
+
+Total Word Error Rate (WER): 58.29%
+Number of successful recognitions : 73/175
+Recognition accuracy: 41.71%
+
+Total Time taken: 0.60s
